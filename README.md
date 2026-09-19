@@ -195,7 +195,8 @@ A proximidade entre média e mediana indica uma distribuição relativamente equ
 
 Ao mesmo tempo, existe amplitude significativa entre os menores e maiores níveis de consumo, evidenciando variações relevantes de demanda ao longo do período.
 
-<!-- Adicionar imagem do histograma do consumo -->
+<img width="869" height="392" alt="image" src="https://github.com/user-attachments/assets/74de1f0a-a227-4184-9c88-60c0ff62f9b6" />
+
 
 ---
 
@@ -209,7 +210,8 @@ O consumo aumentou principalmente durante o primeiro semestre, atingindo níveis
 
 Nos meses finais do ano ocorreu uma redução mais evidente da demanda.
 
-<!-- Adicionar imagem da evolução temporal -->
+<img width="1024" height="469" alt="image" src="https://github.com/user-attachments/assets/ab54195e-8d35-4529-8233-6ba526fa75a3" />
+
 
 ---
 
@@ -226,7 +228,8 @@ A média de 3 dias acompanha mais rapidamente as mudanças da série, enquanto a
 
 Essas transformações facilitaram a identificação da tendência de consumo ao longo do ano.
 
-<!-- Adicionar imagem das médias móveis -->
+<img width="1024" height="471" alt="image" src="https://github.com/user-attachments/assets/115f85fe-9294-4ece-96f3-9ed99f38e153" />
+
 
 ---
 
@@ -248,7 +251,8 @@ Já novembro e dezembro apresentaram níveis médios mais baixos.
 
 Esse comportamento reforça a existência de uma componente sazonal ao longo do ano.
 
-<!-- Adicionar imagem do consumo médio mensal -->
+<img width="1024" height="470" alt="image" src="https://github.com/user-attachments/assets/d378ed51-9228-427e-9e5f-bc06003f5d38" />
+
 
 ---
 
@@ -260,7 +264,8 @@ O consumo permanece relativamente estável entre segunda-feira e sábado.
 
 No domingo ocorre uma redução mais evidente da demanda média, indicando influência do calendário semanal sobre o padrão energético.
 
-<!-- Adicionar imagem do consumo por dia da semana -->
+<img width="869" height="501" alt="image" src="https://github.com/user-attachments/assets/775e2b9c-afe1-47e3-96d1-317bd2e618d0" />
+
 
 ---
 
@@ -304,7 +309,8 @@ A decomposição evidenciou:
 - forte sazonalidade diária;
 - variações residuais não completamente explicadas por tendência e sazonalidade.
 
-<!-- Adicionar imagem da decomposição -->
+<img width="1190" height="985" alt="image" src="https://github.com/user-attachments/assets/12d17430-7636-41b5-bca1-53c93ecf422d" />
+
 
 ---
 
@@ -316,7 +322,8 @@ O resultado mostrou um padrão diário claramente repetitivo, com períodos de m
 
 A repetição do comportamento ao longo dos dias confirmou a presença de forte sazonalidade intradiária.
 
-<!-- Adicionar imagem da sazonalidade semanal -->
+<img width="888" height="470" alt="image" src="https://github.com/user-attachments/assets/fd88e593-df7d-4e2e-92d7-f559bb8bce0e" />
+
 
 ---
 
@@ -332,7 +339,8 @@ Porém, a dispersão variou ao longo do período e foram observados valores extr
 
 Isso indica que tendência e sazonalidade explicam uma parcela importante da série, mas não capturam completamente toda a dinâmica do consumo energético.
 
-<!-- Adicionar imagem dos resíduos -->
+<img width="1036" height="393" alt="image" src="https://github.com/user-attachments/assets/f20947d5-e70c-4a43-81ad-d88731a09a2d" />
+
 
 ---
 
@@ -378,7 +386,8 @@ Como:
 
 o comportamento reforçou a presença da sazonalidade diária.
 
-<!-- Adicionar imagem ACF/PACF -->
+<img width="1312" height="449" alt="image" src="https://github.com/user-attachments/assets/bc2c6690-e09f-4861-a4b9-0bc5abaeea6d" />
+
 
 ---
 
@@ -459,7 +468,11 @@ Features Temporais
 Histórico do Consumo
 ```
 
-<!-- Adicionar heatmap e scatterplots -->
+<img width="798" height="393" alt="image" src="https://github.com/user-attachments/assets/c649ceda-1831-4c01-9117-9e8ff811d6dd" />
+
+<img width="1590" height="890" alt="image" src="https://github.com/user-attachments/assets/cf4f770b-dc24-42c4-8b5c-a1aff7b4a67a" />
+
+
 
 ---
 
@@ -734,7 +747,11 @@ Entretanto, a configuração encontrada pelo Optuna não superou o melhor result
 
 Esse resultado reforçou que uma técnica de otimização mais sofisticada não garante necessariamente melhor desempenho.
 
-<!-- Adicionar imagens do histórico Optuna e importância dos hiperparâmetros -->
+<img width="1432" height="436" alt="image" src="https://github.com/user-attachments/assets/2fb7a558-535a-480a-bd5d-8ef7df5dfdd8" />
+
+<img width="1428" height="437" alt="image" src="https://github.com/user-attachments/assets/7f316f9c-f0ac-448d-af41-a1aea658e926" />
+
+
 
 ---
 
@@ -807,7 +824,8 @@ O **Voting Regressor apresentou o melhor desempenho geral**, alcançando os meno
 
 Isso sugere que a combinação das previsões de XGBoost e LightGBM foi capaz de reduzir parte dos erros individuais dos modelos.
 
-<!-- Adicionar imagem da comparação dos modelos -->
+<img width="1594" height="593" alt="image" src="https://github.com/user-attachments/assets/80f5b4da-0a48-43ed-b693-97798bf64721" />
+
 
 ---
 
@@ -839,7 +857,8 @@ Esse comportamento não indica overfitting acentuado.
 
 A tendência também sugere que o modelo ainda pode se beneficiar de um volume maior de dados históricos.
 
-<!-- Adicionar imagem da Learning Curve -->
+<img width="1006" height="546" alt="image" src="https://github.com/user-attachments/assets/8a012395-76b3-4079-9880-174a54b172a3" />
+
 
 ---
 
@@ -861,7 +880,8 @@ O desempenho no teste final foi superior à média observada durante a validaç�
 
 Visualmente, as previsões acompanharam de forma muito próxima as oscilações reais do consumo durante dezembro.
 
-<!-- Adicionar imagem Real vs Previsto -->
+<img width="899" height="469" alt="image" src="https://github.com/user-attachments/assets/bbc8310d-7fe8-4edd-a29a-cab7d84daf79" />
+
 
 ---
 
@@ -875,7 +895,8 @@ No gráfico de resíduos versus valores previstos não foi observado um padrão 
 
 Isso indica ausência de viés sistemático relevante nas previsões.
 
-<!-- Adicionar imagem dos resíduos -->
+<img width="1390" height="490" alt="image" src="https://github.com/user-attachments/assets/5d59c6d2-2b7e-4b66-b769-7f9f6ee5a7fa" />
+
 
 ---
 
@@ -919,7 +940,8 @@ lag_6               → 39.61
 
 O resultado mostra que o consumo observado 10 minutos antes é a principal informação utilizada pelo modelo.
 
-<!-- Adicionar gráfico de importância global SHAP -->
+<img width="794" height="840" alt="image" src="https://github.com/user-attachments/assets/2f990456-9b29-4ca7-a4d6-359eb7581443" />
+
 
 ---
 
@@ -937,7 +959,8 @@ e sua contribuição para a previsão.
 
 Esse comportamento é coerente com a elevada autocorrelação identificada durante a análise exploratória.
 
-<!-- Adicionar Dependence Plot -->
+<img width="737" height="490" alt="image" src="https://github.com/user-attachments/assets/b98c46cc-2d1f-418c-9b00-213bfe273379" />
+
 
 ---
 
@@ -968,7 +991,8 @@ levando a previsão para uma região muito mais próxima do valor real observado
 
 A análise reforçou que o modelo utiliza principalmente a persistência de curto prazo da série para produzir suas previsões.
 
-<!-- Adicionar imagem Waterfall -->
+<img width="1033" height="675" alt="image" src="https://github.com/user-attachments/assets/29aa3061-4056-44ed-b735-dc32ab8f5782" />
+
 
 ---
 
@@ -1039,7 +1063,8 @@ A aplicação permite visualizar:
 
 O dashboard transforma os resultados da modelagem em uma experiência mais próxima de um produto de dados.
 
-<!-- Adicionar screenshot da aplicação -->
+<img width="1725" height="858" alt="image" src="https://github.com/user-attachments/assets/71cc5713-fc56-4553-be88-6aee8d862d64" />
+
 
 ---
 
@@ -1066,7 +1091,8 @@ Da mesma forma, variáveis meteorológicas futuras precisam ser conhecidas ou es
 
 Portanto, a projeção de 30 dias disponível na aplicação deve ser interpretada como uma **simulação de cenário futuro**, e não como uma previsão operacional com a mesma precisão observada no teste de curto prazo.
 
-<!-- Adicionar imagem da projeção de 30 dias -->
+<img width="1390" height="590" alt="image" src="https://github.com/user-attachments/assets/94472fba-7200-4b91-86a0-922533aace1b" />
+
 
 ---
 
